@@ -3,10 +3,9 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
 import { Link } from "react-router-dom";
-import dashboard from "./dashboard.svg";
 import Nav from "./NavDashboard";
 
-class Dashboard extends Component {
+class Editor extends Component {
   render() {
     const { user } = this.props.auth;
 
@@ -16,20 +15,12 @@ class Dashboard extends Component {
       <div className="container" style={{marginTop:"2rem"}}>
         <div className="row">
           <div className="landing-copy col s12 center-align">
-            <h4>
-              <b>Hey there,</b> {user.name.split(" ")[0]}
-              <p className="flow-text white-text text-darken-1">
-                Welcome to your {" "}
-                <span style={{ fontFamily: "monospace" }}>CODEDashboard</span> Dashboard
-              </p>
-            
-              <p className="flow-text grey-text text-darken-1">
-                text text text
-              </p>
-            </h4>
+            <h1>
+              <b>editor</b>
+            </h1>
             <p>
             <Link
-                to="/editor"
+                to="/whiteboard"
                 style={{
                   width: "450px",
                   borderRadius: "3px",
@@ -37,10 +28,22 @@ class Dashboard extends Component {
                 }}
                 className="btn btn-large waves-effect waves-light hoverable accent-3"
               >
-                 editor
+                 Open Whiteboard
+              </Link>
+              <br />
+              <br />
+              <Link
+                to="/feedback"
+                style={{
+                  width: "450px",
+                  borderRadius: "3px",
+                  letterSpacing: "1.5px"
+                }}
+                className="btn btn-large waves-effect waves-light hoverable accent-3"
+              >
+                 feedback page
               </Link>
             </p>
-            <img src={dashboard} alt="dashboard" width="400px" />
           </div>
         </div>
       </div>
@@ -49,7 +52,7 @@ class Dashboard extends Component {
   }
 }
 
-Dashboard.propTypes = {
+Editor.propTypes = {
   logoutUser: PropTypes.func.isRequired,
   auth: PropTypes.object.isRequired
 };
@@ -61,4 +64,4 @@ const mapStateToProps = state => ({
 export default connect(
   mapStateToProps,
   { logoutUser }
-)(Dashboard);
+)(Editor);
