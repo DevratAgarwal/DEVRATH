@@ -16,7 +16,7 @@ class Options extends Component {
                   borderRadius: "3px",
                   letterSpacing: "1.5px",
                   marginTop: "1rem",
-                  marginLeft: "20rem",
+                  marginLeft: "10rem",
                   float:"left"
             
                 }}
@@ -24,6 +24,23 @@ class Options extends Component {
                 >
               
                 Whiteboard
+                </Link>
+
+                <Link
+                to="/video-call"
+                style={{
+                  width: "150px",
+                  borderRadius: "3px",
+                  letterSpacing: "1.5px",
+                  marginTop: "1rem",
+                  marginLeft: "15rem",
+                  float:"left"
+            
+                }}
+                className="btn waves-effect waves-light hoverable accent-3"
+                >
+              
+                Video-call
                 </Link>
 
                 <Link
