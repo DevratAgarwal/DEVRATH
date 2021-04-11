@@ -25,7 +25,7 @@ class NavDashboard extends Component {
                 className="col s5 brand-logo center white-text"
                 >
                 <i className="material-icons">code</i>
-                DEVRAT
+                BINARY REVIEW
                 </Link>
                 <button
               style={{

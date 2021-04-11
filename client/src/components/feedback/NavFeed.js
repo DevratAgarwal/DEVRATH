@@ -25,7 +25,7 @@ class NavFeed extends Component {
                 className="col s5 brand-logo center white-text"
                 >
                 <i className="material-icons">code</i>
-                DEVRAT
+                Binary Review
                 </Link>
                 <button
               style={{

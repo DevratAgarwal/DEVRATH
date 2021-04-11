@@ -12,10 +12,10 @@ class Landing extends Component {
     return (
       <div>
       <Navbar />
-      <div style={{padding:"4em"}}>
+      <div style={{padding:"3em"}}>
         <div class="left">
-        <h2>Lorem ipsum dolor<br></br>sit amet, consectetur<br></br>adipiscing elit.</h2>
-        <h6 style={{marginBottom:"1em"}}>Lorem ipsum dolor sit amet, consectetur adipiscing<br></br> elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam <br></br>Sed nisi. Nulla quis sem at nibh elementum imperdiet.<br></br> ipsum. Praesent</h6>
+        <h2>A platform for<br></br>the developers, by<br></br>the developers.</h2>
+        <h6 style={{marginBottom:"1em"}}>Collaborate with your friends and colleagues to practice<br></br> and improve your development skills, Use the code editor to see instant <br></br>results, the whiteboard to explain complex dev stuff, <br></br>video call to chat and disscuss the ideas and give your constructive<br />feedback to improve your friends skills.<br /><br />Join us Now and enter the crazy dev world!!</h6>
         <Link
                 to="/register"
                 style={{

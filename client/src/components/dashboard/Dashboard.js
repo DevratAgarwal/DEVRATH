@@ -15,16 +15,16 @@ class Dashboard extends Component {
         <Nav />
       <div className="container" style={{marginTop:"2rem"}}>
         <div className="row">
-          <div className="landing-copy col s12 center-align">
+          <div className="landing-copy col s12 center-align"> 
             <h4>
               <b>Hey there,</b> {user.name.split(" ")[0]}
-              <p className="flow-text white-text text-darken-1">
+              <p className="flow-text white-text text-darken-1"  style={{marginTop:"2rem"}}>
                 Welcome to your {" "}
-                <span style={{ fontFamily: "monospace" }}>CODEDashboard</span> Dashboard
+                <span style={{ fontFamily: "monospace" }}> Dashboard</span>
               </p>
             
               <p className="flow-text grey-text text-darken-1">
-                text text text
+                You can practice development and video chat with your peer to brainstorm ideas!
               </p>
             </h4>
             <p>
@@ -37,10 +37,10 @@ class Dashboard extends Component {
                 }}
                 className="btn btn-large waves-effect waves-light hoverable accent-3"
               >
-                 editor
+                 Collab now!
               </Link>
             </p>
-            <img src={dashboard} alt="dashboard" width="400px" />
+            <img src={dashboard} alt="dashboard" width="400px"  style={{marginTop:"2rem"}} />
           </div>
         </div>
       </div>
