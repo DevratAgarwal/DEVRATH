@@ -30,7 +30,7 @@ Team Name: Devrath
 * [Annie Saxena](https://github.com/anniesaxena)
 * [Prateek Mehra](https://github.com/prateek-mehra)
 * [Devrat Agarwal](https://github.com/DevratAgarwal)
-* [Saumya Rajora](https://github.com/shiv94124)
+* [Saumya Rajaura](https://github.com/shiv94124)
 
 
 ### Made at:
