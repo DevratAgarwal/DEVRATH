@@ -8,6 +8,10 @@
 ## Introduction:
 A website to collaborate with your friends and colleagues to practice and improve your development skills, Use the code playground to show your peers instant outputs, the whiteboard to explain complex dev stuff, video call to chat and disscuss the ideas and feedback to give your constructive feedback to improve your friends skills.
 
+<img src="images/screencapture-localhost-3000-2021-04-11-06_55_04.png" />
+<img src="images/screencapture-localhost-3000-editor-2021-04-11-07_02_37.png" />
+<img src="images/screencapture-localhost-3000-feedback-2021-04-07-19_48_49.png" />
+
   
 ## Demo Video Link:
   <a href="https://www.youtube.com/watch?v=8bPYbbDz0Vs">https://www.youtube.com/watch?v=8bPYbbDz0Vs</a>
